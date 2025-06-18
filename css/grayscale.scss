@@ -1,7 +1,9 @@
 ---
 ---
 
-@import "variables";
+// @import "variables";
+@use "variables" as *;
+@use "sass:color";
 
 /*!
  * Start Bootstrap - Grayscale Bootstrap Theme (http://startbootstrap.com)
@@ -98,8 +100,9 @@ a {
   text-decoration: none;
   &:hover,
   &:focus {
-    color: darken($secondary-color, 20%);
-  }
+    // color: darken($secondary-color, 20%);
+    color: color.adjust($secondary-color, $lightness:-20%);
+ }
 }
 
 .nav-item {
@@ -325,7 +328,8 @@ ul.social-buttons li a {
   &:focus,
   &:active {
     color: #222;
-    background-color: darken($secondary-color, 10%);
+    // background-color: darken($secondary-color, 10%);
+    background-color: color.adjust($secondary-color, $lightness: -10%);
   }
 }
 
@@ -367,7 +371,8 @@ ul.social-buttons li a {
 .post-date {
   flex: 0 0 7rem;
   margin-right: 0.73rem; /* Golden Ratio Spacing (lineHeight / Φ^2) */
-  color: lighten($font-color, 20%);
+  // color: lighten($font-color, 20%);
+  color: color.adjust($font-color, $lightness: 20%);
   font-size: 0.9em;
 }
 
