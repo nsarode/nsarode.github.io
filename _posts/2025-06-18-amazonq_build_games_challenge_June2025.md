@@ -9,11 +9,11 @@ tags: [ "amazonq", "vibecoding", "duckhunt","python","AI" ]
 
 ## TL;DR
 
-- Built Duck Hunt (retro game) with Amazon Q (AI code assistant) without any previous experience in game building
-- Took me roughly 4hrs to build something from concept to mvp and though final product was not polished it was fully functional (my 8yr old thoroughly enjoyed playing it)
-- Setup was a breeze and using cli to build the game felt intuitive and as well as convenient since I could see Amazon Q resolving errors and troubleshooting issue in real-time
-- It wrote sensible git commits and took care of code versioning (in `trusted` mode, it automatically commited code to github after testing and debugging)
-- Code available on [Github](https://github.com/nsarode/amzQ_duckhunt)
+- Built Duck Hunt (retro game) with Amazon Q (AI code assistant) without any previous experience in game building.
+- Took me roughly 4hrs to build something from concept to mvp and though final product was not polished it was fully functional (my 8yr old thoroughly enjoyed playing it).
+- Setup was a breeze and using cli to build the game felt intuitive and as well as convenient since I could see Amazon Q resolving errors and troubleshooting issue in real-time.
+- It wrote sensible git commits and took care of code versioning (in `trusted` mode, it automatically commited code to github after testing and debugging).
+- Code available on [Github](https://github.com/nsarode/amzQ_duckhunt).
 
 
 ## The Challenge
@@ -25,7 +25,9 @@ The challenge invited participants to use Amazon Q Developer CLI to build classi
 ## Getting Started with Amazon Q
 
 The [challenge webpage](https://community.aws/content/2y6egGcPAGQs8EwtQUM9KAONojz/build-games-challenge-build-classics-with-amazon-q-developer-cli) was well documented and had links to all the necessary steps to get set up. 
-The process began with a simple conversation with Amazon Q through its CLI interface. I described what I wanted to build -- "a first-person duck hunting game built using `Ursina` python game-engine, with score tracking, time limits, and increasing difficulty". And asked it to create a file titled `duckhunt_instructions.txt` and "Add to it instructions and requirements that you know you will need to create a game with minimum additional input".  To my surprise, the file was thorough and gave me the impression that Amazon Q understood the concept pretty well with just that simple prompt. I opted for Ursina engine, because all example blog posts on the challenge page used `pygame` and figured `ursina` (listed by Google as one of the top 3 python based game-engines available) could be a good challenge to test it with. Nevermind that I have used neither of those game-engines ever in my life! 
+The process began with a simple conversation with Amazon Q through its CLI interface. I described what I wanted to build -- "a first-person duck hunting game built using `Ursina` python game-engine, with score tracking, time limits, and increasing difficulty. Please create a file named `duckhunt_instructions.txt` and add to it instructions and requirements that you know you will need to create a game with minimum additional input from me". To my surprise, the generated file was thorough and gave me the impression that Amazon Q understood the concept pretty well with just that simple prompt. 
+
+I opted for Ursina engine, because all example blog posts on the challenge page used `pygame` and figured `ursina` (listed by Google as one of the top 3 python based game-engines available) could be a good challenge to test it with. Nevermind that I have used neither of those game-engines ever in my life! 
 
 ## From Concept to Playable Game
 
