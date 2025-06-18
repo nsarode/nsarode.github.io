@@ -4,7 +4,7 @@ section-type: post
 has-comments: true
 title: Build games challenge with AmazonQ
 category: Tech
-tags: [ "amazonq", "vibecoding", "duckhunt","python","AI" ]
+tags: [ "amazonq", "vibecoding", "duckhunt","python","AI","BuildGamesChallenge","AmazonQDevCLI"]
 ---
 
 ## TL;DR
