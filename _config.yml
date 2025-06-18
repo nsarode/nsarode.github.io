@@ -26,8 +26,11 @@ background-img: "intro-bg.jpg"
 # Dynamic Text on the Header #
 ##############################
 
-quote: "Where’s your will to be weird?"
-me-img: "/img/jetpacktocat.png"
+quote: "A problem well stated is half solved - Charles Kettering"
+# quote: "Since all models are wrong the scientist must be alert to what is importantly wrong - George E.P. Box"
+# quote: "As the area of our knowledge grows, so too does our perimeter of ignorance - Neil Degrasse Tyson"
+# quote: "Big data is like teenage sex: everyone talks about it, nobody really knows how to do it, everyone thinks everyone else is doing it, so everyone claims they are doing it…"
+# me-img: "/img/jetpacktocat.png"
 
 # To use github profile pic uncomment the following line and replace 'user_name'
 # with your github user name.
@@ -48,14 +51,14 @@ me-img: "https://github.com/nsarode.png?size=500"
 post-preview-words: 96
 paginate: 5
 email-share: True
-fb-share: True
+fb-share: False
 twitter-share: True
 linkedin-share: True
 reddit-share: True
-tumblr-share: True
-pinterest-share: True
+tumblr-share: False
+pinterest-share: False
 pocket-share: True
-vkontakte-share: True
+vkontakte-share: False
 
 disqus-shortname: "personal-jekyll-theme"
 
@@ -64,12 +67,19 @@ disqus-shortname: "personal-jekyll-theme"
 ############
 
 events:
-  - image: "/img/timeline/spidertocat.png"
-    date: "September 2013 - Today"
-    description: "Saving the neighborhood!"
-  - image: "/img/timeline/baracktocat.jpg"
-    date: "September 2007 - August 2013"
-    description: "Started coding"
+  - image: "/img/timeline/Ginkgo_Logo.jpg"
+    date: "October 2022 - May 2025"
+    description: "Decision Science Lead, Data Science & Analytics"
+  - image: "/img/timeline/Joynbio_Logo.jpg"
+    date: "August 2018 - October 2022"
+    description: "Computational Biology Lead, Digital Science & Technology"
+  - image: "/img/timeline/Harvard_University_coat_of_arms.png"
+    date: "September 2015 - July 2018"
+    description: "Post Doctoral Research Associate"
+  - image: "/img/timeline/GT.jpg"
+    date: "December 2012 - August 2015"
+    description: "Post Doctoral Research Faculty"
+
 
 # First image of the Timeline
 timeline-img: "/img/timeline/default.png"
@@ -89,12 +99,7 @@ email: "neha.sarode@gmail.com"
 
 author_blurb_image: "/img/author.png"
 author_blurb:
-  "'Github''s Octocat was designed by Simon Oxley, alongside the white bird Twitter
-  used (before they received a proper logo) as part of a usual routine of cranking
-  out images for iStock. GitHub saw it, and wanted it, presumably under the notion
-  that it can represent how complex code combines to create peculiar things, much
-  like the octopuss... except the CEO of GitHub called it an octocat, and it has
-  been the octocat since then."
+  "Drawing on a distinct background as a trained microbiologist and expert computational biologist, I have grown into a leader in data science and analytics. A core principle guiding my career trajectory, is cultivating talent and fostering collaborative, high-performing teams; where individual growth is nurtured to achieve impactful, data-driven outcomes."
 
 ##################
 # Social Buttons #
@@ -104,9 +109,9 @@ social:
   - icon: "github"
     url: "https://github.com/nsarode"
   - icon: "linkedin-in"
-    url: "https://www.linkedin.com"
-  - icon: "x-twitter"
-    url: "https://twitter.com/"
+    url: "https://www.linkedin.com/in/nehasarode/"
+  - icon: "instagram"
+    url: "https://www.instagram.com/nsarode/"
   # - icon: "rss"
   #   url: "https://le4ker.github.io/personal-jekyll-theme/feed.xml"
 
