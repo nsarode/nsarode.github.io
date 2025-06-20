@@ -22,10 +22,32 @@ When I first heard about Amazon's Build Games Challenge, I was intrigued but als
 
 The challenge invited participants to use Amazon Q Developer CLI to build classic games, and I decided to test its capabilities by recreating Duck Hunt, the iconic shooting game from the 1980s. I have so many fond memories of playing this game during summer breaks and was excited to give this a whirl !
 
+## Screenshots and gameplay
+
+There is a gameplay movie within the dedicated [github repo](https://github.com/nsarode/amzQ_duckhunt) within `gameplay_and_screenshots` directory (in case the webpage has rendering issues)
+
+### Gameplay movie 
+
+![Gameplay](https://github.com/nsarode/amzQ_duckhunt/raw/aaa43eae7cfe67a902f68c9082fce280c2c20816/gameplay_and_screenshots/gameplay.mov)
+
+### Screenshots
+
+![Screenshot 3](https://github.com/nsarode/amzQ_duckhunt/blob/aaa43eae7cfe67a902f68c9082fce280c2c20816/gameplay_and_screenshots/Screen%20Shot%2003.png?raw=true)
+
+![Screenshot 1](https://github.com/nsarode/amzQ_duckhunt/blob/aaa43eae7cfe67a902f68c9082fce280c2c20816/gameplay_and_screenshots/Screen%20Shot%2001.png?raw=true)
+
+![Screenshot 2](https://github.com/nsarode/amzQ_duckhunt/blob/aaa43eae7cfe67a902f68c9082fce280c2c20816/gameplay_and_screenshots/Screen%20Shot%2002.png?raw=true)
+
+![Screenshot 4](https://github.com/nsarode/amzQ_duckhunt/blob/aaa43eae7cfe67a902f68c9082fce280c2c20816/gameplay_and_screenshots/Screen%20Shot%2004.png?raw=true)
+
+
 ## Getting Started with Amazon Q
 
 The [challenge webpage](https://community.aws/content/2y6egGcPAGQs8EwtQUM9KAONojz/build-games-challenge-build-classics-with-amazon-q-developer-cli) was well documented and had links to all the necessary steps to get set up. 
-The process began with a simple conversation with Amazon Q through its CLI interface. I described what I wanted to build -- "a first-person duck hunting game built using `Ursina` python game-engine, with score tracking, time limits, and increasing difficulty. Please create a file named `duckhunt_instructions.txt` and add to it instructions and requirements that you know you will need to create a game with minimum additional input from me". To my surprise, the generated file was thorough and gave me the impression that Amazon Q understood the concept pretty well with just that simple prompt. 
+The actual game-building process began with a simple conversation with Amazon Q through its CLI interface. I described what I wanted to build
+> "Help me create a first-person duck hunting game built using `Ursina` python game-engine, with score tracking, time limits, and increasing difficulty. Please create a file named `duckhunt_instructions.txt` and add to it instructions and requirements that you know you will need to create a game with minimum additional input from me"
+
+To my surprise, the generated file was thorough and gave me the impression that Amazon Q understood the concept pretty well with just that simple prompt. 
 
 I opted for Ursina engine, because all example blog posts on the challenge page used `pygame` and figured `ursina` (listed by Google as one of the top 3 python based game-engines available) could be a good challenge to test it with. Nevermind that I have used neither of those game-engines ever in my life! 
 
@@ -128,29 +150,13 @@ Automatically (e.g. in trusted mode) include basic tests for critical functional
 
 Improve the ability to interactively debug issues rather than requiring multiple back-and-forth exchanges.
 
-## Screenshots and gameplay
-
-There is a gameplay movie within the dedicated [github repo](https://github.com/nsarode/amzQ_duckhunt) within `gameplay_and_screenshots` directory (in case the webpage has rendering issues)
-
-### Gameplay movie 
-
-![Gameplay](https://github.com/nsarode/amzQ_duckhunt/raw/aaa43eae7cfe67a902f68c9082fce280c2c20816/gameplay_and_screenshots/gameplay.mov)
-
-### Screenshots
-
-![Screenshot 3](https://github.com/nsarode/amzQ_duckhunt/blob/aaa43eae7cfe67a902f68c9082fce280c2c20816/gameplay_and_screenshots/Screen%20Shot%2003.png?raw=true)
-
-![Screenshot 1](https://github.com/nsarode/amzQ_duckhunt/blob/aaa43eae7cfe67a902f68c9082fce280c2c20816/gameplay_and_screenshots/Screen%20Shot%2001.png?raw=true)
-
-![Screenshot 2](https://github.com/nsarode/amzQ_duckhunt/blob/aaa43eae7cfe67a902f68c9082fce280c2c20816/gameplay_and_screenshots/Screen%20Shot%2002.png?raw=true)
-
-![Screenshot 4](https://github.com/nsarode/amzQ_duckhunt/blob/aaa43eae7cfe67a902f68c9082fce280c2c20816/gameplay_and_screenshots/Screen%20Shot%2004.png?raw=true)
-
 ## Conclusion
 
 As someone with no game development experience, I was able to create a functional Duck Hunt game without writing any code myself. Amazon Q handled everything from game mechanics to GitHub setup. While there's room for improvement, the experience demonstrated how AI coding assistants are democratizing software development across domains.
 
-I still think "vibe coding" is overhyped, but this experience helped me understand the use cases where it could truly be beneficial e.g. for non-coder stakeholder to design a rough first draft of their idea or problem. As any data scientist worth their salt knows, understanding the real requirements is half the battle. The most valuable personal insight for me was seeing how my data science skills— clear problem definition (making a requirements document), systematic debugging, and iterative improvement — transferred perfectly to this new domain when paired with Amazon Q's technical capabilities. This tool doesn't just write code; it bridges knowledge gaps and enables domain experts to create software and build solutions outside their specialization.
+I still think "vibe coding" is overhyped, but this experience helped me understand the use cases where it could truly be beneficial e.g. for non-coder stakeholder to design a rough first draft of their idea or problem. As any data scientist worth their salt knows, understanding the real requirements is half the battle. 
+
+The most valuable personal insight for me was seeing how my data science skills— clear problem definition (making a requirements document), systematic debugging, and iterative improvement — transferred perfectly to this new domain when paired with Amazon Q's technical capabilities. This tool doesn't just write code; it bridges knowledge gaps and enables domain experts to create software and build solutions outside their specialization.
 
 Amazon Q is not the only coding assistant on the market. So I am not going to **insist** on using one over the other (the jury is still out on that one). But I will make a strong case for the value of leverating coding assistants as a knowledge translator that helps specialists like me venture confidently into new technical territories.
 
